@@ -1,7 +1,24 @@
 (function($) {
     // Within this function, $ will always refer to jQuery
 
+    // Reading configuration from a file.
     
+   //start ajax request
+    $.ajax({
+        url: "config/setup.json",
+        //force to handle it as text
+        dataType: "text",
+        success: function(data) {
+            
+            //data downloaded so we call parseJSON function 
+            //and pass downloaded data
+            var json = $.parseJSON(data);
+            //now json variable contains data in json format
+            //let's display a few items
+            $('#results').html('Popup Version: ' + json.version + '<br />hashTracking: ' + json.remodal.hashTracking);
+        }
+    });
+
    // Option the can be set for the modal window 
     var options = { hashTracking:true, closeOnEscape:false, closeOnAnyClick:false };
     

@@ -21,3 +21,9 @@ http://lab.veno.it/venobox/
 
 http://vodkabears.github.io/remodal/
 https://github.com/VodkaBears/Remodal/blob/master/test/remodal.html # example code for options
+
+
+Json for configuration
+--------------------------
+http://runnable.com/UhY_jE3QH-IlAAAP/how-to-parse-a-json-file-using-jquery
+var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
