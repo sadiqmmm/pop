@@ -1,28 +1,37 @@
 (function($) {
     // Within this function, $ will always refer to jQuery
 
-$(document).on('open', '.remodal', function () {
-    console.log('open');
-});
+    // Available Events for each event write the code in this block
+    
+    var options = { hashTracking:true, closeOnEscape:false, closeOnAnyClick:false };
+    
+    $('[data-remodal-id=modal]').remodal(options).open();
 
-$(document).on('opened', '.remodal', function () {
-    console.log('opened');
-});
+    
+    $('[data-remodal-id=modal]').remodal().open();
 
-$(document).on('close', '.remodal', function () {
-    console.log('close');
-});
+	$(document).on('open', '.remodal', function () {
+	    console.log('open');
+	});
 
-$(document).on('closed', '.remodal', function () {
-    console.log('closed');
-});
+	$(document).on('opened', '.remodal', function () {
+	    console.log('opened');
+	});
 
-$(document).on('confirm', '.remodal', function () {
-    console.log('confirm');
-});
+	$(document).on('close', '.remodal', function () {
+	    console.log('close');
+	});
 
-$(document).on('cancel', '.remodal', function () {
-    console.log('cancel');
-});    
+	$(document).on('closed', '.remodal', function () {
+	    console.log('closed');
+	});
+
+	$(document).on('confirm', '.remodal', function () {
+	    console.log('confirm');
+	});
+
+	$(document).on('cancel', '.remodal', function () {
+	    console.log('cancel');
+	});    
 
 })(jQuery);

@@ -122,7 +122,7 @@ body.remodal_active .remodal-overlay {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    width: 100%;
+   /* width: 100%; */
     min-height: 100%;
     padding: 35px;
 
@@ -261,7 +261,7 @@ body.remodal_active .remodal {
 
 @media only screen and (min-width: 40.063em) /* min-width 641px */ {
     .remodal {
-        max-width: 700px;
+       /* max-width: 700px; */
         min-height: 0;
         margin: 20px auto;
 
