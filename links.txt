@@ -1,0 +1,13 @@
+Links
+-------------
+1) http://www.sitepoint.com/eat-those-cookies-with-jquery/
+2) http://code.tutsplus.com/tutorials/14-helpful-jquery-tricks-notes-and-best-practices--net-14405
+
+Snippets
+-----------
+############################
+(function($) {
+    // Within this function, $ will always refer to jQuery
+})(jQuery);
+############################
+
