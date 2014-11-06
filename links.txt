@@ -15,3 +15,8 @@ Source js files
 -----------------
 //cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js
 //cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js
+https://github.com/ericmmartin/simplemodal
+
+http://lab.veno.it/venobox/
+
+http://vodkabears.github.io/remodal/
