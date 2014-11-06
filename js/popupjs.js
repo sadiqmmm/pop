@@ -1,12 +1,13 @@
 (function($) {
     // Within this function, $ will always refer to jQuery
 
-    // Available Events for each event write the code in this block
     
+   // Option the can be set for the modal window 
     var options = { hashTracking:true, closeOnEscape:false, closeOnAnyClick:false };
     
-    $('[data-remodal-id=modal]').remodal(options).open();   
+    $('[data-remodal-id=modal]').remodal(options).open();
     
+   // Available Events for each event write the code in this block
 
 	$(document).on('open', '.remodal', function () {
 	    console.log('open');
