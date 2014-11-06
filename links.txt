@@ -20,3 +20,4 @@ https://github.com/ericmmartin/simplemodal
 http://lab.veno.it/venobox/
 
 http://vodkabears.github.io/remodal/
+https://github.com/VodkaBears/Remodal/blob/master/test/remodal.html # example code for options
