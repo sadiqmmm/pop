@@ -5,10 +5,8 @@
     
     var options = { hashTracking:true, closeOnEscape:false, closeOnAnyClick:false };
     
-    $('[data-remodal-id=modal]').remodal(options).open();
-
+    $('[data-remodal-id=modal]').remodal(options).open();   
     
-    $('[data-remodal-id=modal]').remodal().open();
 
 	$(document).on('open', '.remodal', function () {
 	    console.log('open');
