@@ -187,7 +187,7 @@ body.remodal_active .remodal {
 
     display: block;
 
-    content: "×";
+    content: "x";
     cursor: pointer;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
